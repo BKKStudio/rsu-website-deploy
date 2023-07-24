@@ -21,11 +21,8 @@ export default function RegisterPage() {
                 height={70}
               />
             </Link>
-            <div className={styles.applytext}>
-              <span>APPLY NOW</span>
-            </div>
           </div>
-          <div>
+          <div className={styles.dropdowregis}>
             <li class="nav-item dropdown">
               <button
                 class="btn   dropdown-toggle"
@@ -135,6 +132,9 @@ export default function RegisterPage() {
               </span>
             </div>
           </div>
+          <div className={styles.applytext}>
+              <span>APPLY NOW</span>
+            </div>
         </div>
       </header>
 
