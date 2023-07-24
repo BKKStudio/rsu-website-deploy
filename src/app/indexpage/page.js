@@ -454,7 +454,7 @@ export default function IndexPage() {
           <div className={styles.cardshowcase}>
             <Link href={""} className={styles.itemshowcase}>
               <Image
-                src={"/interview/03072566110948_Success_Cover.jpg"}
+                src={"/Interview/03072566110948_Success_Cover.jpg"}
                 alt=""
                 width={400}
                 height={200}
@@ -476,7 +476,7 @@ export default function IndexPage() {
             </Link>
             <Link href={""} className={styles.itemshowcase}>
               <Image
-                src={"/interview/22062566131912_Success_Cover.jpg"}
+                src={"/Interview/22062566131912_Success_Cover.jpg"}
                 alt=""
                 width={400}
                 height={200}
@@ -499,7 +499,7 @@ export default function IndexPage() {
             <Link href={""} className={styles.itemshowcase}>
               <Image
                 src={
-                  "/interview/23062566072747_Success_Cover_SR-Online_คอลัมน์-Interview-กิจกรรมของสถาบันภาษา.jpg"
+                  "/Interview/23062566072747_Success_Cover_SR-Online_คอลัมน์-Interview-กิจกรรมของสถาบันภาษา.jpg"
                 }
                 alt=""
                 width={400}

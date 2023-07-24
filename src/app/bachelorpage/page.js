@@ -69,7 +69,7 @@ export default function Bachelor() {
             <input type="text" id="birthday" name="birthday" value={student.birthday}  onChange={(ev) => setStudent({ ...student, birthday: ev.target.value })}/>
             </div>
             <div className={styles.creteform}>
-              <label>ชื่่อ</label>
+              <label>ชื่อ</label>
               <input type={"text"} id="firstname"  name="firstname" value={student.firstname}  onChange={(ev) => setStudent({ ...student, firstname: ev.target.value })}></input>
             </div>
             <div className={styles.creteform}>
