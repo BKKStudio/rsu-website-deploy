@@ -13,65 +13,51 @@ export default function Carousel() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <Image
+            <img
               src="/Slideshow/slide1.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image src="/Slideshow/2.jpg" 
+            <img src="/Slideshow/2.jpg" 
                className="d-block w-100 h-100"
                alt="..."
-               width={1000}
-               height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               src="/Slideshow/slide3.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               src="/Slideshow/slide5.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               src="/Slideshow/slide6.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               src="/Slideshow/slide7.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               src="/Slideshow/slide8.jpg"
               className="d-block w-100 h-100"
               alt="..."
-              width={1000}
-              height={836}
             />
           </div>
         </div>
