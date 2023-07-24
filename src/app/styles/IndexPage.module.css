@@ -404,9 +404,6 @@ grid-template-rows: repeat(3,1fr);
   .itemshowcase img{
     width: 300px;
   }
-    .circleicon img{
-        width: 80px;
-    }
     .cardopenhouse{
         grid-template-columns: repeat(1,1fr);
     }

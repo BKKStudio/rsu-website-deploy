@@ -14,37 +14,37 @@ export default function IndexPage() {
         <div className={styles.manuitem}>
           <Link className={styles.icon} href="/registerpage">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/1.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/1.png"} alt="" ></img>
               <p>สมัครเรียน</p>
             </div>
           </Link>
           <Link className={styles.icon} href="">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/2.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/2.png"} alt="" ></img>
               <p>ค่าเรียน</p>
             </div>
           </Link>
           <Link className={styles.icon} href="">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/3.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/3.png"} alt="" ></img>
               <p>ทุนการศึกษา</p>
             </div>
           </Link>
           <Link className={styles.icon} href="">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/4.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/4.png"} alt="" ></img>
               <p>ปฎิทินการศึกษา</p>
             </div>
           </Link>
           <Link className={styles.icon} href="">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/5.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/5.png"} alt="" ></img>
               <p>เส้นทางมา ม.รังสิต</p>
             </div>
           </Link>
           <Link className={styles.icon} href="https://itsc.rsu.ac.th/">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/6.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/6.png"} alt="" ></img>
               <p>RSU-NET</p>
             </div>
           </Link>
@@ -53,13 +53,13 @@ export default function IndexPage() {
             href="https://itsc.rsu.ac.th/faccon/showfac.php"
           >
             <div className={styles.circleicon}>
-              <Image src={"/Manu/7.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/7.png"} alt="" ></img>
               <p>ติดต่อคณะ</p>
             </div>
           </Link>
           <Link className={styles.icon} href="https://www.sbs.ac.th/">
             <div className={styles.circleicon}>
-              <Image src={"/Manu/8.png"} alt="" width={110} height={90}></Image>
+              <img src={"/Manu/8.png"} alt="" ></img>
               <p>Satit Rangsit</p>
             </div>
           </Link>
