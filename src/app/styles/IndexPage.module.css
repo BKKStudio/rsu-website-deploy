@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Sriracha&display=swap');
+.containerslide{
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px 0 black;
+    margin-bottom: 30px;
+}
+
+
+/*Manu styles*/
+.manucontainer{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Sriracha', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.manuitem{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.manuitem a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.circleicon{
+    text-align: center;
+}
+
+.circleicon img:hover{
+    animation: resize-manu 1s ease-in infinite;
+    cursor: pointer;
+}
+@keyframes resize-manu {
+    0%{
+       transform: scale(100%);
+    }
+    25%{
+        transform: scale(110%);
+    }
+    50%{
+        transform: scale(120%);
+    }
+    75%{
+        transform: scale(110%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+    
+}
+
+
+/*Article1 Showcase*/
+.article{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Sriracha', cursive;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.item{
+    width: 1200px;
+}
+.textshowcase,.textopenhouse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textshowcase a,.textopenhouse a{
+    text-decoration: none;
+    color: white;
+    background-color: #ec008b;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+}
+.lineshowcase{
+    width: 100%;
+    height: 4px;
+    background-color:  #ec008b;
+    margin-bottom: 40px;
+}
+
+/*Crad Openhoise*/
+
+.cardopenhouse{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 40px;
+}
+.cardopenhouse a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.cardopenhouse img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.carditem:hover{
+    animation: shake-card .5s ease-in 1;
+}
+@keyframes shake-card {
+    0%{
+       transform: rotate(3deg);
+    }
+    25%{
+        transform:rotate(-3deg);
+    }
+    50%{
+        transform: rotate(3deg);
+    }
+    75%{
+        transform: rotate(-3deg);
+    }
+    100%{
+        transform: rotate(3deg);
+    }
+    
+    
+}
+.cardshowcase{
+width: 100%;
+display: grid;
+grid-template-rows: repeat(3,1fr);
+}
+.cardshowcase a{
+    text-decoration: none;
+    color: black;
+}
+.itemshowcase{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 10px;
+}
+.itemshowcase img{
+    border-radius: 5px;
+}
+.itemshowcase img:hover{
+    cursor: pointer;
+    transform: scale(1.5)
+}
+
+.detailshowcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detailshowcase span{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.detailshowcase h5{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+}
+
+/*Rsu Video*/
+.cardvideo{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardvideo a:hover{
+    opacity: .5;
+}
+.previewvideo{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    position: absolute;
+    width: 590px;
+    height:430px;
+    color: white;
+}
+.previewvideo2{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    position: absolute;
+    width:280px ;
+    margin: 10px;
+    height:200px;
+    color: white;
+}
+.textpreview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:100% ;
+    height: 50px;
+    text-align: center;
+}
+.textpreview2{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:280px ;
+    height: 30px;
+    text-align: center;
+}
+
+.itemvideo1 img{
+    box-shadow: 0px 0px 8px 0px black;
+}
+.itemvideo2{
+    position: relative;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.itemvideo2 img{
+    margin: 10px;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.imgpreview:hover{
+    opacity: .5;
+}
+
+
+
+/*Video Tiktok styles*/
+.textvideotiktok{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+.textvideotiktok a{
+    text-decoration: none;
+    color: white;
+}
+.textvideotiktok .allvideotiktokbtn{
+
+    background-color: #ec008b;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+.itemtiktok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logowraper img:hover{
+    animation: resize-wrapper .6s ease-in infinite;
+}
+@keyframes resize-wrapper {
+    0%{
+       transform: scale(100%);
+    }
+    25%{
+        transform: scale(110%);
+    }
+    50%{
+        transform: scale(120%);
+    }
+    75%{
+        transform: scale(110%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+    
+}
+.videotiktokshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videotiktokshow a{
+    padding: 10px;
+}
+.videotiktokshow a:hover{
+    opacity: .5;
+}
+
+
+/*GOOD OLD DAY*/
+.cardgoodoldday{
+   display: flex;
+   justify-content: center;  
+   flex-wrap: wrap;  
+   
+}
+.cardgoodoldday a{
+    text-decoration: none;
+    color: black;
+}
+.itemgoodoldday img{
+    padding: 10px;
+}
+
+.itemgoodoldday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 8px 0px black;
+}
+.itemgoodoldday:hover{
+    animation: resize-wrapper .8s ease-in infinite;
+}
+
+
+.detailgoodoldday{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Rsu Gallery*/
+.gallerycon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galleryitem{
+    margin: 10px;
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 10px;
+}
+.galleryitem img{
+    border-radius: 10px;
+}
+.galleryitem img:hover{
+    transform: scale(1.5);
+}
+
+
+/*Responsive*/
+@media screen and (max-width:967px) {
+    .manuitem{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .cardopenhouse{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .itemshowcase{
+          grid-template-columns: .5fr 1.5fr;
+    }
+    .detailshowcase span{
+        font-size: 15px;
+    }
+    .detailshowcase h5{
+        font-size: 10px;
+        color: rgb(129, 129, 129);
+    }
+    .gallerycon{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:669px) {
+    .cardshowcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .itemshowcase{
+        display: flex;
+        width: 330px;
+        justify-content: center;
+        margin: 20px;
+  }
+  .itemshowcase img{
+    width: 300px;
+  }
+    .circleicon img{
+        width: 80px;
+    }
+    .cardopenhouse{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .itemshowcase{
+          grid-template-columns: .5fr 1.5fr;
+    }
+    .detailshowcase{
+        display: none;
+    }
+    .galleryitem img{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .videotiktokshow{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .videotiktokshow img{
+        width: 100%;
+        height: 400px;
+        box-shadow: 0px 0px 8px 0px black;
+    }
+    .previewvideo{
+        width: 100%;
+      
+    }
+    .itemvideo1 img{
+        width: 100%;
+   
+        
+    }
+    .itemvideo2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .circleicon img{
+       width: 60px;
+       height: 60px;
+    }
+    
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Sriracha&display=swap');
+
+
+.containernav{
+    font-family: 'Sriracha', cursive;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.itemnav{
+   width: 1200px;
+}
+.itemnav ul{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.itemnav li{
+    font-weight: lighter;
+}
+

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Sriracha&display=swap');
+
+.container{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.itemcontent{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.itemcontent button{
+    border:none;
+}
+.itemcontent li{
+    list-style: none;
+    text-align: center;
+}
+.applytext{
+    margin-top: 80px;
+}
+.contact{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #ec008b;
+}
+.contact a:hover{
+    background-color: #7c0149;
+}
+.lineunder{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(192, 192, 192);
+
+}
+.textregis{
+    background-color: #ec008b;
+    width: 160px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+.textregis span{
+    font-size: 15px;
+    animation: opacitytext 1s ease-in infinite;
+}
+@keyframes opacitytext {
+    0%   {opacity: 1;}
+    25%  {opacity: .5;}
+    50%  {opacity: .5;}
+    100% {opacity: 1;}
+}
+
+.containerinfo{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.conregis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.textfree{
+    margin-top: 40px;
+}
+
+.itemregis:hover img{
+    transform: scale(1.2);
+}
+
