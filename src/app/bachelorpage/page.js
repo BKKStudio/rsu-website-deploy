@@ -25,17 +25,15 @@ export default function Bachelor() {
     try {
       const response = await axios.post("/api/users/bachelor", student);
       console.log("Register success", response.data);
-      Swal.fire(
-        'Register Successfully',
-        'สมัครเรียบร้อยแล้ว',
-        'success'
-      ).then((result)=>{
-        if(result.isConfirmed){
-          router.push("/indexpage");
-        }else if(result.isDenied){
-          Swal.fire('Changes are not saved', '', 'info')
+      Swal.fire("Register Successfully", "สมัครเรียบร้อยแล้ว", "success").then(
+        (result) => {
+          if (result.isConfirmed) {
+            router.push("/indexpage");
+          } else if (result.isDenied) {
+            Swal.fire("Changes are not saved", "", "info");
+          }
         }
-      })
+      );
     } catch (error) {
       console.log("Register failed", error.message);
     }
@@ -106,7 +104,7 @@ export default function Bachelor() {
             <div className={styles.creteform}>
               <label>วันเกิด (YYYY-MM-DD)</label>
               <input
-                type="text"
+                type="date"
                 id="birthday"
                 name="birthday"
                 value={student.birthday}
