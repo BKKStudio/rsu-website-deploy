@@ -6,6 +6,7 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import Footer from "../components/Footer";
+import Swal from "sweetalert2";
 
 export default function Bachelor() {
     const router = useRouter();
@@ -25,7 +26,17 @@ export default function Bachelor() {
         try {
           const response = await axios.post("/api/users/master",student);
           console.log("Register success", response.data);
-          router.push("/");
+          Swal.fire(
+            'Register Successfully',
+            'สมัครเรียบร้อยแล้ว',
+            'success'
+          ).then((result)=>{
+            if(result.isConfirmed){
+              router.push("/indexpage");
+            }else if(result.isDenied){
+              Swal.fire('Changes are not saved', '', 'info')
+            }
+          })
         } catch (error) {
           console.log("Register failed", error.message);
         } 

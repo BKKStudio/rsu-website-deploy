@@ -56,7 +56,7 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="/internationalpage">
                         International Program
                       </Link>
                     </li>

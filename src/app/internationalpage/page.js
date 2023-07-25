@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import Footer from "../components/Footer";
-
+import Swal from "sweetalert2";
 
 
 export default function International() {
@@ -27,7 +27,17 @@ export default function International() {
         try {
           const response = await axios.post("/api/users/international",Student);
           console.log("Register success", response.data);
-          Router.push("/indexpage");
+          Swal.fire(
+            'Register Successfully',
+            'สมัครเรียบร้อยแล้ว',
+            'success'
+          ).then((result)=>{
+            if(result.isConfirmed){
+              Router.push("/indexpage");
+            }else if(result.isDenied){
+              Swal.fire('Changes are not saved', '', 'info')
+            }
+          })
         } catch (error) {
           console.log("Register failed", error.message);
         } 

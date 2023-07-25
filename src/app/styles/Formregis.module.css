@@ -73,7 +73,5 @@
     .iteminfrom2{
         grid-template-columns: 1fr;
     }
-    .dropmanu li button{
-        display: none;
-    }
+   
 }
