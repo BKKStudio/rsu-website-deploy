@@ -33,6 +33,9 @@ const registerSchema = new mongoose.Schema({
         type:String,
         required:[true,"Please provide a tell"],
     },
+    level:{
+        type:String,
+    },
     
   
 })

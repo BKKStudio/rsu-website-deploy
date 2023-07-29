@@ -19,6 +19,7 @@ export default function International() {
     lastname: "",
     email: "",
     tell: "",
+    level:"international",
   });
 
   async function OnRegister() {

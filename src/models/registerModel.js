@@ -35,6 +35,9 @@ const registerSchema = new mongoose.Schema({
         type:String,
         required:[true,"Please provide a tell"],
     }, 
+    level:{
+        type:String,
+    },
 }) 
 
 const Bachelors = mongoose.models.Bachelors || mongoose.model("Bachelors",registerSchema)

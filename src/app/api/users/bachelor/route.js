@@ -9,7 +9,7 @@ connect();
 export async function POST(request) {
   try {
     const reqBody = await request.json();
-    const {Faculty, Major, idcard, birthday,firstname, lastname,email,tell } = reqBody;
+    const {Faculty, Major, idcard, birthday,firstname, lastname,email,tell ,level} = reqBody;
     console.log(reqBody);
 
     //check if user already exists
@@ -26,6 +26,7 @@ export async function POST(request) {
       lastname,
       email,
       tell,
+      level,
     })
 
     const savedStudent = await newStudent.save();

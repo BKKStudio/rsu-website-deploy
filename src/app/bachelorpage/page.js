@@ -19,6 +19,7 @@ export default function Bachelor() {
     lastname: "",
     email: "",
     tell: "",
+    level:"bachelors",
   });
 
   async function onRegister() {

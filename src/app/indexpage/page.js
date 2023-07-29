@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import styles from "../styles/IndexPage.module.css";
 import Footer from "../components/Footer";
+import Post from "../components/posts";
 
 export default function IndexPage() {
   return (
@@ -144,7 +145,8 @@ export default function IndexPage() {
           </div>
           <div className={styles.lineshowcase}></div>
           <div className={styles.cardshowcase}>
-            <Link href={""} className={styles.itemshowcase}>
+            <Post></Post>
+            <Link href={``} className={styles.itemshowcase}>
               <Image
                 src={"/showcase/showcase1.jpg"}
                 alt=""
@@ -163,52 +165,6 @@ export default function IndexPage() {
                   คว้าเหรียญเงินจากการแข่งขันนักวอลเลย์บอลนั่งทีมชาติไทย
                   (ทีมหญิง) มหกรรมกีฬาอาเซียนพาราเกมส์ (ครั้งที่ 12) ณ
                   ประเทศกัมพูชา โดยมีประเทศสมาชิกเข้าร่วมการแข่งขันรวม 11 ประเทศ
-                </h5>
-              </div>
-            </Link>
-            <Link href={""} className={styles.itemshowcase}>
-              <Image
-                src={"/showcase/showcase2.jpg"}
-                alt=""
-                width={400}
-                height={200}
-              ></Image>
-              <div className={styles.detailshowcase}>
-                <span>
-                  โอปอ ธภัทรวัฒน์ นศ.ทุนกีฬา ม.รังสิต คว้าแชมป์โลก 2023 เจ็ตสกี
-                  ทางไกล
-                </span>
-                <h5>
-                  ยกนิ้วให้ไปเลยกับ โอปอ-ธภัทรวัฒน์ โจสรรค์นุสนธิ์
-                  ที่คว้าแชมป์โลกในศึกดับเบิ้ลยูจีพี วัน เจ็ตสกี
-                  ทางไกลนอกชายฝั่งหรือออฟชอร์ชิงแชมป์โลก 2023 (WGP#1 WATERJET
-                  OFFSHORE WORLD CHAMPIONSHIP 2023) ใช้เส้นทางไปกลับ ลากูน่า บีช
-                  ถึงแหลมพรหมเทพ รวม 120 กม.
-                </h5>
-              </div>
-            </Link>
-            <Link href={""} className={styles.itemshowcase}>
-              <Image
-                src={"/showcase/20032566110259_Success_Cover_LIBERAL_ARM.jpg"}
-                alt=""
-                width={400}
-                height={200}
-              ></Image>
-              <div className={styles.detailshowcase}>
-                <span>
-                  “เรียนภาษา เล่นดนตรี และเล่นเกม
-                  นิยามการใช้ชีวิตในรั้วมหาวิทยาลัย ” ณัฎฐพงษ์ ยงกำลัง
-                  นักศึกษาวิทยาลัยศิลปศาสตร์ ม.รังสิต
-                </span>
-                <h5>
-                  มุมมองการใช้ชีวิตของคนรุ่นใหม่ แตกต่างไปจากสมัยก่อนค่อนข้างมาก
-                  เราจะเห็นได้ชัดว่าคนยุคนี้
-                  สร้างรายได้จากสิ่งที่เราอาจเคยมองข้าม การได้ทำสิ่งเล่นๆ
-                  เป็นเรื่องจริงจังขึ้นมา ไม่ว่าจะเป็นการสร้างอาชีพ
-                  หรือสร้างตัวตนจากงานอดิเรก เช่นเดียวกับ นายณัฎฐพงษ์ ยงกำลัง
-                  นักศึกษาชั้นปีที่ 4 สาขาวิชาภาษาอังกฤษ วิทยาลัยศิลปศาสตร์
-                  มหาวิทยาลัยรังสิต เขาทุ่มเทให้กับทั้งการเรียน
-                  และงานอดิเรกที่เขาสนใจ
                 </h5>
               </div>
             </Link>
