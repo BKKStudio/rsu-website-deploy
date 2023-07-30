@@ -11,20 +11,20 @@ export default function International() {
   const Router = useRouter();
 
   const [student, setStudent] = React.useState({
-    faculty: "",
-    major: "",
+    Faculty: "",
+    Major: "",
     idcard: "",
     birthday: "",
     firstname: "",
     lastname: "",
     email: "",
     tell: "",
-    level:"international",
+    level:"internationals",
   });
 
   async function OnRegister() {
     try {
-      const response = await axios.post("/api/users/international", Student);
+      const response = await axios.post("/api/users/international", student);
       console.log("Register success", response.data);
       Swal.fire("Register Successfully", "สมัครเรียบร้อยแล้ว", "success").then(
         (result) => {
@@ -57,7 +57,7 @@ export default function International() {
                 id="Faculty"
                 name="Faculty"
                 onChange={(ev) =>
-                  setStudent({ ...student, faculty: ev.target.value })
+                  setStudent({ ...student, Faculty: ev.target.value })
                 }
               >
                 <option value="">-- Select Faculty --</option>
@@ -81,7 +81,7 @@ export default function International() {
                 id="Major"
                 name="Major"
                 onChange={(ev) =>
-                  setStudent({ ...student, major: ev.target.value })
+                  setStudent({ ...student, Major: ev.target.value })
                 }
               >
                 <option value="">-- Select Major --</option>

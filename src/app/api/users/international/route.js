@@ -18,7 +18,7 @@ export async function POST(request) {
       if (user) {
         return NextResponse.json({ error: "Student already exists" }, { status: 400 });
       }
-      const newStudent = new International({
+      const newStudent = new Internationals({
         Faculty,
         Major,
         idcard,
