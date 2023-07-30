@@ -40,5 +40,5 @@ const registerSchema = new mongoose.Schema({
   
 })
 
-const International = mongoose.models.International || mongoose.model("International",registerSchema)
-export default International;
+const Internationals = mongoose.models.Internationals || mongoose.model("Internationals",registerSchema)
+export default Internationals;

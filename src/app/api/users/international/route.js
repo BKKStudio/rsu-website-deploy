@@ -1,5 +1,5 @@
 import { connect } from "@/dbConfig/dbConfig";
-import International from "@/models/registerInterModel";
+import Internationals from "@/models/registerInterModel";
 import { NextRequest, NextResponse } from "next/server";
 
 
@@ -14,7 +14,7 @@ export async function POST(request) {
       console.log(reqBody);
   
       //check if user already exists
-      const user = await International.findOne({idcard});
+      const user = await Internationals.findOne({idcard});
       if (user) {
         return NextResponse.json({ error: "Student already exists" }, { status: 400 });
       }
